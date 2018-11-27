@@ -1,17 +1,21 @@
 import React from 'react';
-import NavItems from './navItems';
-import Button from '../Button/Button';
+import NavItems from './navItems/navItems';
+import Button from '../button/button';
 import * as FontAwesome from 'react-icons/fa';
+import classes from './header.css';
 
 const header = () => (
-    <div>
+    <div className={classes.Header}>
         <NavItems />
-        <h1>Your life, a photo</h1>
-        <p>Print your life in a simple photo</p>
+            <h1 className={classes.h1}>Your life, a photo</h1>
+            <p>Print your life in a simple photo</p>
         <Button />
-        <FontAwesome.FaTwitter />
-        <FontAwesome.FaFlickr/>
-        <FontAwesome.FaDribbble />
+        <div style={{color: 'white'}}>
+            <FontAwesome.FaTwitter size={30} className={classes.icons}/>
+            <FontAwesome.FaFlickr size={30} className={classes.icons}/>
+            <FontAwesome.FaDribbble  size={30} className={classes.icons}/>
+        </div>
+        
     </div>
 );
 

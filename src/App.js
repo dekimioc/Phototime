@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './components/Header/header';
+import classes from './App.css';
+import Header from './components/header/Header';
+import Section from './components/section1/section1';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className={classes.App}>
         <Header />
+        <Section />
       </div>
     );
   }
