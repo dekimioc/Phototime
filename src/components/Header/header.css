@@ -1,0 +1,26 @@
+.Header {
+    background-image: url('../../images/header_back.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0 10px;
+}
+
+.Header h1 {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 120px 0 0 0;
+    letter-spacing: 8px;
+    
+}
+
+.Header p {
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.icons {
+    margin: 0 15px 15px 15px;
+    cursor: pointer;
+}
