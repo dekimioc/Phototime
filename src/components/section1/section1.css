@@ -1,0 +1,32 @@
+.Section {
+    display: flex;
+    align-items: space-around;
+    text-align: left;
+    background-color: #f5f6f7;
+    padding: 70px 70px 0px 70px;
+}
+
+.text {
+    max-width: 50%;
+}
+
+@media (max-width: 800px) {
+    .Section {
+        flex-direction: column;
+        
+    }
+    .text {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .image {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 520px) {
+    .img {
+        width: 230px;
+    }
+}

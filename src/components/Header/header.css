@@ -18,9 +18,11 @@
 .Header p {
     color: #fff;
     letter-spacing: 4px;
+    margin-bottom: 60px;
 }
 
 .icons {
-    margin: 0 15px 15px 15px;
-    cursor: pointer;
+    color: #fff;
+    margin: 80px 10px 0px 10px;
+    padding-bottom: 30px;
 }

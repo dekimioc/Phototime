@@ -1,0 +1,29 @@
+.Design {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 70px;
+}
+
+.image {
+    max-width: 30%;
+}
+
+.text {
+    max-width: 50%;
+    float: right;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .Design {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        margin-top: 30px;
+    }
+    
+}

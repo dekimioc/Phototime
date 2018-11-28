@@ -1,0 +1,21 @@
+.Section {
+  display: flex;
+}
+
+.gallery {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.text {
+    text-align:center;
+    max-width: 40%;
+    
+}
+
+.icons {
+    
+}
+
