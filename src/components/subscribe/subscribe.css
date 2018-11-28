@@ -1,0 +1,9 @@
+.Subscribe {
+    background-image: url('../../images//subscribe.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    padding: 200px;
+}
