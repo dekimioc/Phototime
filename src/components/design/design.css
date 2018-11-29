@@ -5,13 +5,24 @@
     padding: 70px;
 }
 
+.header {
+    font-family: "Gotham Rounded Bold";
+    color: #16a085;
+}
+
+.para {
+    font-family: "Gotham Rounded Book";
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #373737;
+}
+
 .image {
-    max-width: 30%;
+    max-width: 50%;
 }
 
 .text {
     max-width: 50%;
-    float: right;
     margin-top: -30px;
     padding-left: 10px;
 }

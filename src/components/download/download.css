@@ -1,0 +1,65 @@
+.Download {
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.header {
+    font-family: "Gotham Rounded Bold";
+}
+
+.paragr {
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: "Gotham Rounded Medium";
+    letter-spacing: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.button {
+    height: 40px;
+    padding: 1px 15px;
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+    color: #fff;
+    width: 200px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+}
+
+.icon {
+    background-color: blue;
+    font-size: 34px;
+    padding: 1px 15px;
+    float: right;
+    background-color: #16a085;
+    border: 2px solid #16a085;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 70px;
+    font-family: "Gotham Rounded Medium";
+}
+
+@media (max-width: 610px) {
+    .logo {
+        margin: 0 auto;
+        padding-left: 30px
+    }
+}

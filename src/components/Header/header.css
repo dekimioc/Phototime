@@ -8,10 +8,11 @@
 }
 
 .Header h1 {
+    font-family: "Gotham Rounded Bold";
     text-transform: uppercase;
     color: #fff;
     margin: 120px 0 0 0;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     
 }
 
@@ -19,6 +20,7 @@
     color: #fff;
     letter-spacing: 4px;
     margin-bottom: 60px;
+    font-weight: 600;
 }
 
 .icons {

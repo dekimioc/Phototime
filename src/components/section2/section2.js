@@ -12,14 +12,16 @@ const section2 = () => (
             <FontAwesome.FaAngleRight size="30" style={{cursor: "pointer"}} />
         </div>
         <div className={classes.gallery}>
-            <div className={classes.text}>
+            <div>
                 <img src={logo} alt="logo" />
-                <h3>OUR COMUNITY</h3>
-                <p>Lorem ipsum delor sit amet, consectuer adipiscing clit</p>
+                <h3 className={classes.header}>OUR COMUNITY</h3>
+                <p style={{maxWidth: "200px"}}>Lorem ipsum delor sit amet, consectuer adipiscing clit</p>
             </div>
             <div>
-                <img src={van} alt="van" style={{padding: " 0 20px"}}/>
-                <img src={autumn} alt="autumn" />
+                <img src={van} alt="van" className={classes.image}/>
+            </div>
+            <div>
+                <img src={autumn} alt="autumn" className={classes.image}/>
             </div>
         </div>
     </div>

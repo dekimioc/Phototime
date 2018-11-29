@@ -8,6 +8,23 @@
 
 .text {
     max-width: 50%;
+    padding-bottom: 30px;
+}
+
+.header {
+    text-transform: uppercase;
+    color: #16a085;
+    font-family: "Gotham Rounded Bold"
+}
+
+.para {
+    font-family: "Gotham Rounded Book";
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.image {
+    padding-bottom: 30px;
 }
 
 @media (max-width: 800px) {

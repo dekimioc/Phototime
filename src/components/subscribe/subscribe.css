@@ -5,5 +5,41 @@
     background-attachment: fixed;
     background-size: cover;
     display: block;
-    padding: 200px;
+    padding: 300px 0;
+}
+
+.header {
+    color: #fff;
+    font-family: "Gotham Rounded Bold";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.p {
+    display: inline-block;
+}
+
+
+.input {
+    height: 30px;
+    border: 2px solid #fff;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 1px 13px;
+    font-family: "Gotham Rounded Medium";
+    font-size: 18px;
+}
+
+.icon {
+    height: 30px;
+    float: right;
+    background-color: #1abc9c;
+    padding: 1px 13px;
+    color: white;
+    border: 2px solid #1abc9c;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
